@@ -1,0 +1,121 @@
+body {
+	background-image: url('../images/forrest_cabin.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration: none;
+	color: #46f;
+}
+
+section {
+	font-family: 'Roboto', Sans-serif;
+	
+	padding-left: 1em;
+	padding-right: 1em;
+	max-width: 40em;
+	margin: 0 auto;
+}
+
+header, footer {
+	background-color: #222;
+	background-color: rgba(40,42,40,0.85);
+}
+
+header {
+	padding: 8em 0;
+}
+
+header h1 {
+	font-weight: 100;
+	font-size: 1.9em;
+	line-height: 1.4em;
+	text-align: left;
+	color: #ddd;
+	display: block;
+	//display: table-cell;
+}
+
+header img {
+	top: 0;
+	float: left;
+	margin: -1em 1em 0 -7em;	
+	width: 4em;
+	
+}
+
+
+header span {
+	color: #4c4;	
+}
+
+main {
+	background-color: #fff;
+	border-top: 3em solid #fff;
+	border-bottom: 3em solid #fff;
+}
+
+main section {
+	padding-top: 1em;
+	
+}
+
+main section h2 {
+	font-family: 'Roboto', Serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 2.5em;
+	text-transform: uppercase;
+	color: #777;
+}
+
+main section p, main section li {
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	line-height: 2em;
+	color: #333;
+}
+
+main section p {
+	margin-bottom: 1em;
+}
+
+main section ul {
+	padding: 0 0 0 2em;
+}
+
+main span.label {
+	color: #777;
+}
+
+main span.label:before {
+	content: "\00a0\2014\00a0\00a0";
+}
+
+
+footer {
+	padding: 2em 0;
+}
+
+#copyright {
+	text-align: center;
+	line-height: 2em;
+}
+
+#copyright h3, #copyright p {
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #888;
+}
+
+#copyright a {
+	color: #bbb;
+}
+
+
+
+
