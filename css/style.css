@@ -59,7 +59,7 @@ main {
 }
 
 main section {
-	padding-top: 1em;
+	padding: 1em 0 0 0;
 	
 }
 
@@ -95,7 +95,6 @@ main span.label {
 main span.label:before {
 	content: "\00a0\2014\00a0\00a0";
 }
-
 
 footer {
 	padding: 2em 0;
