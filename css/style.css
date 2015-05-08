@@ -1,6 +1,6 @@
 body {
 	background-image: url('../images/forrest_cabin.jpg');
-	background-position: center center;
+	background-position: center right;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -26,27 +26,17 @@ header, footer {
 }
 
 header {
-	padding: 8em 0;
+	padding: 7em 0;
 }
 
 header h1 {
 	font-weight: 100;
-	font-size: 1.9em;
+	font-size: 2em;
 	line-height: 1.4em;
 	text-align: left;
 	color: #ddd;
 	display: block;
-	//display: table-cell;
 }
-
-header img {
-	top: 0;
-	float: left;
-	margin: -1em 1em 0 -7em;	
-	width: 4em;
-	
-}
-
 
 header span {
 	color: #4c4;	
@@ -85,7 +75,14 @@ main section p {
 }
 
 main section ul {
-	padding: 0 0 0 2em;
+	padding: 0 0 0 1em;
+
+}
+
+main section li:before {
+	content: "\25E6";
+	padding-right: 0.5em;
+	color: #bbb;
 }
 
 main span.label {
@@ -95,6 +92,7 @@ main span.label {
 main span.label:before {
 	content: "\00a0\2014\00a0\00a0";
 }
+
 
 footer {
 	padding: 2em 0;
