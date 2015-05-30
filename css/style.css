@@ -20,17 +20,12 @@ section {
 	margin: 0 auto;
 }
 
-header, footer {
-//	background-color: #222;
-//	background-color: rgba(40,42,40,0.85);
-}
-
 header {
 	padding: 7em 0;
 }
 
 header h1 {
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 2em;
 	line-height: 1.4em;
 	text-align: left;
@@ -72,25 +67,6 @@ main section p, main section li {
 
 main section p {
 	margin-bottom: 1em;
-}
-
-main section ul {
-	padding: 0 0 0 1em;
-
-}
-
-main section li:before {
-	content: "\25E6";
-	padding-right: 0.5em;
-	color: #bbb;
-}
-
-main span.label {
-	color: #777;
-}
-
-main span.label:before {
-	content: "\00a0\2014\00a0\00a0";
 }
 
 
